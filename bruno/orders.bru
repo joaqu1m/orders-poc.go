@@ -1,0 +1,15 @@
+meta {
+  name: orders
+  type: http
+  seq: 1
+}
+
+get {
+  url: http://localhost:8080/orders
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbiI6ImFkbSIsImV4cCI6MTczMjQyMDI4Nn0.bUXLkotCPUJhpUchavjEst5pEf_kirLAD6PmK-AtluY
+}
